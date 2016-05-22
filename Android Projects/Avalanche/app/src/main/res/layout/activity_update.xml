@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="avalanche.example.com.avalanche.Update"
+    android:background="@drawable/background2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Here you can update the app&apos;s data to include more years, which produces more accurate results for the prediction algorithms. Please select a start year below. "
+        android:id="@+id/titleView"
+        android:layout_marginTop="26dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/yearSpinner"
+        android:layout_below="@+id/titleView"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:spinnerMode="dropdown"
+        android:popupBackground="#000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/updateButton"
+        android:layout_below="@+id/yearSpinner"
+        android:layout_centerHorizontal="true"
+        android:background="#000000" />
+</RelativeLayout>

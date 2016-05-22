@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.foods" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="awesome.foods.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="awesome.foods.B1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b1" >
+        </activity>
+        <activity
+            android:name="awesome.foods.B2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b2" >
+        </activity>
+        <activity
+            android:name="awesome.foods.B3"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b3" >
+        </activity>
+        <activity
+            android:name="awesome.foods.B4"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b4" >
+        </activity>
+        <activity
+            android:name="awesome.foods.B5"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b5" >
+        </activity>
+        <activity
+            android:name="awesome.foods.B6"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b6" >
+        </activity>
+        <activity
+            android:name="awesome.foods.B7"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b7" >
+        </activity>
+        <activity
+            android:name="awesome.foods.B8"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b8" >
+        </activity>
+        <activity
+            android:name="awesome.foods.B9"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b9" >
+        </activity>
+        <activity
+            android:name="awesome.foods.B10"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b10" >
+        </activity>
+        <activity
+            android:name="awesome.foods.B11"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b11" >
+        </activity>
+        <activity
+            android:name="awesome.foods.Biryani"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_biryani" >
+        </activity>
+        <activity
+            android:name="awesome.foods.Hfoods"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_hfoods" >
+        </activity>
+        <activity
+            android:name="awesome.foods.B"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_b" >
+        </activity>
+    </application>
+
+</manifest>

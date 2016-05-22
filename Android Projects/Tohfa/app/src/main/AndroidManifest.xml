@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tohf.android.tohfa" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".List"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name=".B1"
+            android:label="@string/title_activity_b1" >
+        </activity>
+        <activity
+            android:name=".B2"
+            android:label="@string/title_activity_b2" >
+        </activity>
+        <activity
+            android:name=".B3"
+            android:label="@string/title_activity_b3" >
+        </activity>
+        <activity
+            android:name=".B4"
+            android:label="@string/title_activity_b4" >
+        </activity>
+        <activity
+            android:name=".B5"
+            android:label="@string/title_activity_b5" >
+        </activity>
+        <activity
+            android:name=".B6"
+            android:label="@string/title_activity_b6" >
+        </activity>
+        <activity
+            android:name=".B7"
+            android:label="@string/title_activity_b7" >
+        </activity>
+        <activity
+            android:name=".B8"
+            android:label="@string/title_activity_b8" >
+        </activity>
+        <activity
+            android:name=".B9"
+            android:label="@string/title_activity_b9" >
+        </activity>
+        <activity
+            android:name=".B10"
+            android:label="@string/title_activity_b10" >
+        </activity>
+        <activity
+            android:name=".Duas"
+            android:label="@string/title_activity_duas" >
+        </activity>
+        <activity
+            android:name=".Namaz"
+            android:label="@string/title_activity_namaz" >
+        </activity>
+        <activity
+            android:name=".C1"
+            android:label="@string/title_activity_c1" >
+        </activity>
+        <activity
+            android:name=".C2"
+            android:label="@string/title_activity_c2" >
+        </activity>
+        <activity
+            android:name=".C3"
+            android:label="@string/title_activity_c3" >
+        </activity>
+        <activity
+            android:name=".C4"
+            android:label="@string/title_activity_c4" >
+        </activity>
+        <activity
+            android:name=".A1"
+            android:label="@string/title_activity_a1" >
+        </activity>
+        <activity
+            android:name=".A2"
+            android:label="@string/title_activity_a2" >
+        </activity>
+        <activity
+            android:name=".A3"
+            android:label="@string/title_activity_a3" >
+        </activity>
+        <activity
+            android:name=".A4"
+            android:label="@string/title_activity_a4" >
+        </activity>
+        <activity
+            android:name=".A5"
+            android:label="@string/title_activity_a5" >
+        </activity>
+        <activity
+            android:name=".A6"
+            android:label="@string/title_activity_a6" >
+        </activity>
+        <activity
+            android:name=".A7"
+            android:label="@string/title_activity_a7" >
+        </activity>
+        <activity
+            android:name=".A8"
+            android:label="@string/title_activity_a8" >
+        </activity>
+        <activity
+            android:name=".A9"
+            android:label="@string/title_activity_a9" >
+        </activity>
+        <activity
+            android:name=".A10"
+            android:label="@string/title_activity_a10" >
+        </activity>
+        <activity
+            android:name=".A11"
+            android:label="@string/title_activity_a11" >
+        </activity>
+        <activity
+            android:name=".A12"
+            android:label="@string/title_activity_a12" >
+        </activity>
+        <activity
+            android:name=".A13"
+            android:label="@string/title_activity_a13" >
+        </activity>
+        <activity
+            android:name=".A14"
+            android:label="@string/title_activity_a14" >
+        </activity>
+        <activity
+            android:name=".A15"
+            android:label="@string/title_activity_a15" >
+        </activity>
+        <activity
+            android:name=".A16"
+            android:label="@string/title_activity_a16" >
+        </activity>
+        <activity
+            android:name=".A17"
+            android:label="@string/title_activity_a17" >
+        </activity>
+        <activity
+            android:name=".A18"
+            android:label="@string/title_activity_a18" >
+        </activity>
+        <activity
+            android:name=".A19"
+            android:label="@string/title_activity_a19" >
+        </activity>
+        <activity
+            android:name=".A20"
+            android:label="@string/title_activity_a20" >
+        </activity>
+    </application>
+
+</manifest>
