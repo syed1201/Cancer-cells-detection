@@ -1,5 +1,5 @@
 # Projects
 These are the projects as seen on my linkedin and resume - 
-C++ Project aggie snap\n
-Android Projects \n
-Web Project\n
+1)C++ Project aggie snap,
+2)Android Projects,
+3)Web Project.
